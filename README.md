@@ -1,3 +1,21 @@
+# terminal.sexy (fork)
+
+Forked to automatically generate everything up front.
+
+```
+$ npm install
+$ npm run-script dump
+```
+
+Here's how to remove ALL existing gnome-terminal profiles and import the dumped ones:
+
+```
+$ cd dump_output/gnome/
+$ ./remove-all.sh
+$ ./load-all.sh
+$ ls dump_output
+```
+
 # terminal.sexy
 
 > Design, edit and share terminal colorschemes.

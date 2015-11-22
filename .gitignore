@@ -4,3 +4,5 @@ node_modules
 # Compiled files
 dist/js/*.js
 dist/css/*.css
+
+dump_output/*

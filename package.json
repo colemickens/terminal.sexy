@@ -4,6 +4,7 @@
   "description": "View and edit terminal colorschemes in the browser",
   "main": "dist/index.html",
   "scripts": {
+    "dump": "node ./lib/dump.js",
     "test": "mocha -R spec test/*"
   },
   "repository": {
@@ -35,6 +36,7 @@
     "bluebird": "^2.9.12",
     "colr": "~1.2.1",
     "concat-stream": "^1.4.7",
+	"del": "2.1.0",
     "filereader-stream": "^0.2.0",
     "filesaver.js": "^0.1.1",
     "golden-layout": "^1.0.6",
